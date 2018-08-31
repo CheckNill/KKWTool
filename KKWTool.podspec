@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "KKWTool"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "KKWTool is a tool for developmet."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ KKWTool is a tool for  development,we us it.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "git@github.com:CheckNill/KKWTool.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/CheckNill/KKWTool.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
