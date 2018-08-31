@@ -14,53 +14,53 @@
 		EABFE9B421391C330022D94A /* UIViewController+viewDidLoad.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9AE21391C330022D94A /* UIViewController+viewDidLoad.h */; };
 		EABFE9B521391C330022D94A /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9AF21391C330022D94A /* UIViewController+CZAddition.m */; };
 		EABFE9B621391C330022D94A /* UIViewController+ShowAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9B021391C330022D94A /* UIViewController+ShowAlert.h */; };
-		EABFE9CD21391DA50022D94A /* NSString+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9B921391DA50022D94A /* NSString+Category.h */; };
-		EABFE9CE21391DA50022D94A /* NSString+CZHash.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9BA21391DA50022D94A /* NSString+CZHash.h */; };
-		EABFE9D121391DA50022D94A /* NSString+CZBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9BD21391DA50022D94A /* NSString+CZBase64.m */; };
-		EABFE9D221391DA50022D94A /* NSString+KKL.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9BE21391DA50022D94A /* NSString+KKL.h */; };
-		EABFE9D321391DA50022D94A /* NSString+CZPath.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9BF21391DA50022D94A /* NSString+CZPath.m */; };
-		EABFE9D421391DA50022D94A /* NSString+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9C021391DA50022D94A /* NSString+Size.h */; };
-		EABFE9D521391DA50022D94A /* NSString+Binary.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9C121391DA50022D94A /* NSString+Binary.h */; };
-		EABFE9D621391DA50022D94A /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9C221391DA50022D94A /* NSString+Category.m */; };
-		EABFE9D821391DA50022D94A /* NSString+CZHash.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9C421391DA50022D94A /* NSString+CZHash.m */; };
-		EABFE9D921391DA50022D94A /* NSString+CZBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9C521391DA50022D94A /* NSString+CZBase64.h */; };
-		EABFE9DC21391DA50022D94A /* NSString+Binary.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9C821391DA50022D94A /* NSString+Binary.m */; };
-		EABFE9DD21391DA50022D94A /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9C921391DA50022D94A /* NSString+Size.m */; };
-		EABFE9DE21391DA50022D94A /* NSString+CZPath.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9CA21391DA50022D94A /* NSString+CZPath.h */; };
-		EABFE9DF21391DA50022D94A /* NSString+KKL.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9CB21391DA50022D94A /* NSString+KKL.m */; };
-		EABFE9E2213921D80022D94A /* KKWTool.strings in Resources */ = {isa = PBXBuildFile; fileRef = EABFE9E4213921D80022D94A /* KKWTool.strings */; };
-		EABFEA1E213937000022D94A /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9FE213937000022D94A /* UIColor+CZAddition.m */; };
-		EABFEA1F213937000022D94A /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9FF213937000022D94A /* UIView+CZAddition.m */; };
-		EABFEA20213937000022D94A /* KKErrorView.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA00213937000022D94A /* KKErrorView.h */; };
-		EABFEA21213937000022D94A /* UIView+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA01213937000022D94A /* UIView+EX.m */; };
-		EABFEA22213937000022D94A /* UIView+TransitionAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA02213937000022D94A /* UIView+TransitionAnimation.h */; };
-		EABFEA23213937000022D94A /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA03213937000022D94A /* UIView+Util.m */; };
-		EABFEA24213937000022D94A /* UIColor+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA04213937000022D94A /* UIColor+Common.m */; };
-		EABFEA25213937000022D94A /* UIColor+StyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA05213937000022D94A /* UIColor+StyleSheet.m */; };
-		EABFEA26213937000022D94A /* UIView+BorderLine.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA06213937000022D94A /* UIView+BorderLine.h */; };
-		EABFEA27213937000022D94A /* UIColor+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA07213937000022D94A /* UIColor+hex.m */; };
-		EABFEA28213937000022D94A /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA08213937000022D94A /* UIView+Extension.h */; };
-		EABFEA29213937000022D94A /* UIView+ErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA09213937000022D94A /* UIView+ErrorView.m */; };
-		EABFEA2A213937000022D94A /* UIColor+HexExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA0A213937000022D94A /* UIColor+HexExtension.m */; };
-		EABFEA2B213937000022D94A /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA0B213937000022D94A /* UIView+Category.m */; };
-		EABFEA2C213937000022D94A /* UIView+JKFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA0C213937000022D94A /* UIView+JKFrame.m */; };
-		EABFEA2D213937000022D94A /* UIView+Const.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA0D213937000022D94A /* UIView+Const.h */; };
-		EABFEA2E213937000022D94A /* KKErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA0E213937000022D94A /* KKErrorView.m */; };
-		EABFEA2F213937000022D94A /* UIView+CZAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA0F213937000022D94A /* UIView+CZAddition.h */; };
-		EABFEA30213937000022D94A /* UIColor+CZAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA10213937000022D94A /* UIColor+CZAddition.h */; };
-		EABFEA31213937000022D94A /* UIColor+hex.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA11213937000022D94A /* UIColor+hex.h */; };
-		EABFEA32213937000022D94A /* UIColor+StyleSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA12213937000022D94A /* UIColor+StyleSheet.h */; };
-		EABFEA33213937000022D94A /* UIView+BorderLine.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA13213937000022D94A /* UIView+BorderLine.m */; };
-		EABFEA34213937000022D94A /* UIView+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA14213937000022D94A /* UIView+Util.h */; };
-		EABFEA35213937000022D94A /* UIColor+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA15213937000022D94A /* UIColor+Common.h */; };
-		EABFEA36213937000022D94A /* UIView+TransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA16213937000022D94A /* UIView+TransitionAnimation.m */; };
-		EABFEA37213937000022D94A /* UIView+EX.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA17213937000022D94A /* UIView+EX.h */; };
-		EABFEA38213937000022D94A /* UIView+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA18213937000022D94A /* UIView+Category.h */; };
-		EABFEA39213937000022D94A /* UIColor+HexExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA19213937000022D94A /* UIColor+HexExtension.h */; };
-		EABFEA3A213937000022D94A /* UIView+ErrorView.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA1A213937000022D94A /* UIView+ErrorView.h */; };
-		EABFEA3B213937000022D94A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA1B213937000022D94A /* UIView+Extension.m */; };
-		EABFEA3C213937000022D94A /* UIView+Const.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA1C213937000022D94A /* UIView+Const.m */; };
-		EABFEA3D213937000022D94A /* UIView+JKFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA1D213937000022D94A /* UIView+JKFrame.h */; };
+		EABFEA70213939060022D94A /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA3F213939060022D94A /* UIColor+CZAddition.m */; };
+		EABFEA71213939060022D94A /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA40213939060022D94A /* UIView+CZAddition.m */; };
+		EABFEA72213939060022D94A /* KKWTool.strings in Resources */ = {isa = PBXBuildFile; fileRef = EABFEA41213939060022D94A /* KKWTool.strings */; };
+		EABFEA73213939060022D94A /* KKErrorView.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA43213939060022D94A /* KKErrorView.h */; };
+		EABFEA74213939060022D94A /* NSString+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA44213939060022D94A /* NSString+Category.h */; };
+		EABFEA75213939060022D94A /* UIView+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA46213939060022D94A /* UIView+EX.m */; };
+		EABFEA76213939060022D94A /* NSString+CZHash.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA47213939060022D94A /* NSString+CZHash.h */; };
+		EABFEA77213939060022D94A /* UIView+TransitionAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA48213939060022D94A /* UIView+TransitionAnimation.h */; };
+		EABFEA78213939060022D94A /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA49213939060022D94A /* UIView+Util.m */; };
+		EABFEA79213939060022D94A /* UIColor+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA4A213939060022D94A /* UIColor+Common.m */; };
+		EABFEA7A213939060022D94A /* UIColor+StyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA4B213939060022D94A /* UIColor+StyleSheet.m */; };
+		EABFEA7B213939060022D94A /* UIView+BorderLine.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA4C213939060022D94A /* UIView+BorderLine.h */; };
+		EABFEA7C213939060022D94A /* UIColor+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA4D213939060022D94A /* UIColor+hex.m */; };
+		EABFEA7D213939060022D94A /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA4E213939060022D94A /* UIView+Extension.h */; };
+		EABFEA7E213939060022D94A /* UIView+ErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA4F213939060022D94A /* UIView+ErrorView.m */; };
+		EABFEA7F213939060022D94A /* UIColor+HexExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA50213939060022D94A /* UIColor+HexExtension.m */; };
+		EABFEA80213939060022D94A /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA51213939060022D94A /* UIView+Category.m */; };
+		EABFEA81213939060022D94A /* NSString+CZBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA52213939060022D94A /* NSString+CZBase64.m */; };
+		EABFEA82213939060022D94A /* NSString+KKL.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA53213939060022D94A /* NSString+KKL.h */; };
+		EABFEA83213939060022D94A /* NSString+CZPath.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA54213939060022D94A /* NSString+CZPath.m */; };
+		EABFEA84213939060022D94A /* NSString+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA55213939060022D94A /* NSString+Size.h */; };
+		EABFEA85213939060022D94A /* NSString+Binary.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA56213939060022D94A /* NSString+Binary.h */; };
+		EABFEA86213939060022D94A /* UIView+JKFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA57213939060022D94A /* UIView+JKFrame.m */; };
+		EABFEA87213939060022D94A /* UIView+Const.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA58213939060022D94A /* UIView+Const.h */; };
+		EABFEA88213939060022D94A /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA59213939060022D94A /* NSString+Category.m */; };
+		EABFEA89213939060022D94A /* KKErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA5A213939060022D94A /* KKErrorView.m */; };
+		EABFEA8A213939060022D94A /* UIView+CZAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA5B213939060022D94A /* UIView+CZAddition.h */; };
+		EABFEA8B213939060022D94A /* UIColor+CZAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA5C213939060022D94A /* UIColor+CZAddition.h */; };
+		EABFEA8C213939060022D94A /* UIColor+hex.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA5D213939060022D94A /* UIColor+hex.h */; };
+		EABFEA8D213939060022D94A /* UIColor+StyleSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA5E213939060022D94A /* UIColor+StyleSheet.h */; };
+		EABFEA8E213939060022D94A /* UIView+BorderLine.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA5F213939060022D94A /* UIView+BorderLine.m */; };
+		EABFEA8F213939060022D94A /* UIView+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA60213939060022D94A /* UIView+Util.h */; };
+		EABFEA90213939060022D94A /* UIColor+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA61213939060022D94A /* UIColor+Common.h */; };
+		EABFEA91213939060022D94A /* UIView+TransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA62213939060022D94A /* UIView+TransitionAnimation.m */; };
+		EABFEA92213939060022D94A /* NSString+CZHash.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA63213939060022D94A /* NSString+CZHash.m */; };
+		EABFEA93213939060022D94A /* UIView+EX.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA64213939060022D94A /* UIView+EX.h */; };
+		EABFEA94213939060022D94A /* NSString+CZBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA65213939060022D94A /* NSString+CZBase64.h */; };
+		EABFEA95213939060022D94A /* UIView+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA66213939060022D94A /* UIView+Category.h */; };
+		EABFEA96213939060022D94A /* UIColor+HexExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA67213939060022D94A /* UIColor+HexExtension.h */; };
+		EABFEA97213939060022D94A /* UIView+ErrorView.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA68213939060022D94A /* UIView+ErrorView.h */; };
+		EABFEA98213939060022D94A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA69213939060022D94A /* UIView+Extension.m */; };
+		EABFEA99213939060022D94A /* UIView+Const.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA6A213939060022D94A /* UIView+Const.m */; };
+		EABFEA9A213939060022D94A /* NSString+Binary.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA6B213939060022D94A /* NSString+Binary.m */; };
+		EABFEA9B213939060022D94A /* UIView+JKFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA6C213939060022D94A /* UIView+JKFrame.h */; };
+		EABFEA9C213939060022D94A /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA6D213939060022D94A /* NSString+Size.m */; };
+		EABFEA9D213939060022D94A /* NSString+CZPath.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFEA6E213939060022D94A /* NSString+CZPath.h */; };
+		EABFEA9E213939060022D94A /* NSString+KKL.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFEA6F213939060022D94A /* NSString+KKL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,54 +74,54 @@
 		EABFE9AE21391C330022D94A /* UIViewController+viewDidLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+viewDidLoad.h"; sourceTree = "<group>"; };
 		EABFE9AF21391C330022D94A /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
 		EABFE9B021391C330022D94A /* UIViewController+ShowAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ShowAlert.h"; sourceTree = "<group>"; };
-		EABFE9B921391DA50022D94A /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
-		EABFE9BA21391DA50022D94A /* NSString+CZHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZHash.h"; sourceTree = "<group>"; };
-		EABFE9BD21391DA50022D94A /* NSString+CZBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZBase64.m"; sourceTree = "<group>"; };
-		EABFE9BE21391DA50022D94A /* NSString+KKL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KKL.h"; sourceTree = "<group>"; };
-		EABFE9BF21391DA50022D94A /* NSString+CZPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZPath.m"; sourceTree = "<group>"; };
-		EABFE9C021391DA50022D94A /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
-		EABFE9C121391DA50022D94A /* NSString+Binary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Binary.h"; sourceTree = "<group>"; };
-		EABFE9C221391DA50022D94A /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
-		EABFE9C421391DA50022D94A /* NSString+CZHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZHash.m"; sourceTree = "<group>"; };
-		EABFE9C521391DA50022D94A /* NSString+CZBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZBase64.h"; sourceTree = "<group>"; };
-		EABFE9C821391DA50022D94A /* NSString+Binary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Binary.m"; sourceTree = "<group>"; };
-		EABFE9C921391DA50022D94A /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
-		EABFE9CA21391DA50022D94A /* NSString+CZPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZPath.h"; sourceTree = "<group>"; };
-		EABFE9CB21391DA50022D94A /* NSString+KKL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KKL.m"; sourceTree = "<group>"; };
-		EABFE9E3213921D80022D94A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/KKWTool.strings; sourceTree = "<group>"; };
-		EABFE9E5213921E60022D94A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/KKWTool.strings"; sourceTree = "<group>"; };
-		EABFE9FE213937000022D94A /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
-		EABFE9FF213937000022D94A /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
-		EABFEA00213937000022D94A /* KKErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKErrorView.h; sourceTree = "<group>"; };
-		EABFEA01213937000022D94A /* UIView+EX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EX.m"; sourceTree = "<group>"; };
-		EABFEA02213937000022D94A /* UIView+TransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TransitionAnimation.h"; sourceTree = "<group>"; };
-		EABFEA03213937000022D94A /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
-		EABFEA04213937000022D94A /* UIColor+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Common.m"; sourceTree = "<group>"; };
-		EABFEA05213937000022D94A /* UIColor+StyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+StyleSheet.m"; sourceTree = "<group>"; };
-		EABFEA06213937000022D94A /* UIView+BorderLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BorderLine.h"; sourceTree = "<group>"; };
-		EABFEA07213937000022D94A /* UIColor+hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hex.m"; sourceTree = "<group>"; };
-		EABFEA08213937000022D94A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		EABFEA09213937000022D94A /* UIView+ErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ErrorView.m"; sourceTree = "<group>"; };
-		EABFEA0A213937000022D94A /* UIColor+HexExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexExtension.m"; sourceTree = "<group>"; };
-		EABFEA0B213937000022D94A /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
-		EABFEA0C213937000022D94A /* UIView+JKFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKFrame.m"; sourceTree = "<group>"; };
-		EABFEA0D213937000022D94A /* UIView+Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Const.h"; sourceTree = "<group>"; };
-		EABFEA0E213937000022D94A /* KKErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKErrorView.m; sourceTree = "<group>"; };
-		EABFEA0F213937000022D94A /* UIView+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZAddition.h"; sourceTree = "<group>"; };
-		EABFEA10213937000022D94A /* UIColor+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZAddition.h"; sourceTree = "<group>"; };
-		EABFEA11213937000022D94A /* UIColor+hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hex.h"; sourceTree = "<group>"; };
-		EABFEA12213937000022D94A /* UIColor+StyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+StyleSheet.h"; sourceTree = "<group>"; };
-		EABFEA13213937000022D94A /* UIView+BorderLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BorderLine.m"; sourceTree = "<group>"; };
-		EABFEA14213937000022D94A /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
-		EABFEA15213937000022D94A /* UIColor+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Common.h"; sourceTree = "<group>"; };
-		EABFEA16213937000022D94A /* UIView+TransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TransitionAnimation.m"; sourceTree = "<group>"; };
-		EABFEA17213937000022D94A /* UIView+EX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EX.h"; sourceTree = "<group>"; };
-		EABFEA18213937000022D94A /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
-		EABFEA19213937000022D94A /* UIColor+HexExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexExtension.h"; sourceTree = "<group>"; };
-		EABFEA1A213937000022D94A /* UIView+ErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ErrorView.h"; sourceTree = "<group>"; };
-		EABFEA1B213937000022D94A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		EABFEA1C213937000022D94A /* UIView+Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Const.m"; sourceTree = "<group>"; };
-		EABFEA1D213937000022D94A /* UIView+JKFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKFrame.h"; sourceTree = "<group>"; };
+		EABFEA3F213939060022D94A /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
+		EABFEA40213939060022D94A /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
+		EABFEA42213939060022D94A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/KKWTool.strings"; sourceTree = "<group>"; };
+		EABFEA43213939060022D94A /* KKErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKErrorView.h; sourceTree = "<group>"; };
+		EABFEA44213939060022D94A /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		EABFEA45213939060022D94A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/KKWTool.strings; sourceTree = "<group>"; };
+		EABFEA46213939060022D94A /* UIView+EX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EX.m"; sourceTree = "<group>"; };
+		EABFEA47213939060022D94A /* NSString+CZHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZHash.h"; sourceTree = "<group>"; };
+		EABFEA48213939060022D94A /* UIView+TransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TransitionAnimation.h"; sourceTree = "<group>"; };
+		EABFEA49213939060022D94A /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
+		EABFEA4A213939060022D94A /* UIColor+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Common.m"; sourceTree = "<group>"; };
+		EABFEA4B213939060022D94A /* UIColor+StyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+StyleSheet.m"; sourceTree = "<group>"; };
+		EABFEA4C213939060022D94A /* UIView+BorderLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BorderLine.h"; sourceTree = "<group>"; };
+		EABFEA4D213939060022D94A /* UIColor+hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hex.m"; sourceTree = "<group>"; };
+		EABFEA4E213939060022D94A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		EABFEA4F213939060022D94A /* UIView+ErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ErrorView.m"; sourceTree = "<group>"; };
+		EABFEA50213939060022D94A /* UIColor+HexExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexExtension.m"; sourceTree = "<group>"; };
+		EABFEA51213939060022D94A /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		EABFEA52213939060022D94A /* NSString+CZBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZBase64.m"; sourceTree = "<group>"; };
+		EABFEA53213939060022D94A /* NSString+KKL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KKL.h"; sourceTree = "<group>"; };
+		EABFEA54213939060022D94A /* NSString+CZPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZPath.m"; sourceTree = "<group>"; };
+		EABFEA55213939060022D94A /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		EABFEA56213939060022D94A /* NSString+Binary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Binary.h"; sourceTree = "<group>"; };
+		EABFEA57213939060022D94A /* UIView+JKFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKFrame.m"; sourceTree = "<group>"; };
+		EABFEA58213939060022D94A /* UIView+Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Const.h"; sourceTree = "<group>"; };
+		EABFEA59213939060022D94A /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		EABFEA5A213939060022D94A /* KKErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKErrorView.m; sourceTree = "<group>"; };
+		EABFEA5B213939060022D94A /* UIView+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZAddition.h"; sourceTree = "<group>"; };
+		EABFEA5C213939060022D94A /* UIColor+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZAddition.h"; sourceTree = "<group>"; };
+		EABFEA5D213939060022D94A /* UIColor+hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hex.h"; sourceTree = "<group>"; };
+		EABFEA5E213939060022D94A /* UIColor+StyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+StyleSheet.h"; sourceTree = "<group>"; };
+		EABFEA5F213939060022D94A /* UIView+BorderLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BorderLine.m"; sourceTree = "<group>"; };
+		EABFEA60213939060022D94A /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
+		EABFEA61213939060022D94A /* UIColor+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Common.h"; sourceTree = "<group>"; };
+		EABFEA62213939060022D94A /* UIView+TransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TransitionAnimation.m"; sourceTree = "<group>"; };
+		EABFEA63213939060022D94A /* NSString+CZHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZHash.m"; sourceTree = "<group>"; };
+		EABFEA64213939060022D94A /* UIView+EX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EX.h"; sourceTree = "<group>"; };
+		EABFEA65213939060022D94A /* NSString+CZBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZBase64.h"; sourceTree = "<group>"; };
+		EABFEA66213939060022D94A /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		EABFEA67213939060022D94A /* UIColor+HexExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexExtension.h"; sourceTree = "<group>"; };
+		EABFEA68213939060022D94A /* UIView+ErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ErrorView.h"; sourceTree = "<group>"; };
+		EABFEA69213939060022D94A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		EABFEA6A213939060022D94A /* UIView+Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Const.m"; sourceTree = "<group>"; };
+		EABFEA6B213939060022D94A /* NSString+Binary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Binary.m"; sourceTree = "<group>"; };
+		EABFEA6C213939060022D94A /* UIView+JKFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKFrame.h"; sourceTree = "<group>"; };
+		EABFEA6D213939060022D94A /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		EABFEA6E213939060022D94A /* NSString+CZPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZPath.h"; sourceTree = "<group>"; };
+		EABFEA6F213939060022D94A /* NSString+KKL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KKL.m"; sourceTree = "<group>"; };
 		FA32AB80BD1CBD2566525AF4 /* Pods-KKWTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKWTool.release.xcconfig"; path = "Target Support Files/Pods-KKWTool/Pods-KKWTool.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -175,8 +175,7 @@
 		EABFE97421391AB30022D94A /* KKWTool */ = {
 			isa = PBXGroup;
 			children = (
-				EABFE9FD213937000022D94A /* UIView */,
-				EABFE9B721391DA50022D94A /* NSString */,
+				EABFEA3E213939060022D94A /* UIView */,
 				EABFE9AA21391C330022D94A /* UIViewController */,
 				EABFE97621391AB30022D94A /* Info.plist */,
 			);
@@ -196,63 +195,56 @@
 			path = UIViewController;
 			sourceTree = "<group>";
 		};
-		EABFE9B721391DA50022D94A /* NSString */ = {
+		EABFEA3E213939060022D94A /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				EABFE9B921391DA50022D94A /* NSString+Category.h */,
-				EABFE9C221391DA50022D94A /* NSString+Category.m */,
-				EABFE9CA21391DA50022D94A /* NSString+CZPath.h */,
-				EABFE9BF21391DA50022D94A /* NSString+CZPath.m */,
-				EABFE9BE21391DA50022D94A /* NSString+KKL.h */,
-				EABFE9CB21391DA50022D94A /* NSString+KKL.m */,
-				EABFE9C021391DA50022D94A /* NSString+Size.h */,
-				EABFE9C921391DA50022D94A /* NSString+Size.m */,
-				EABFE9C121391DA50022D94A /* NSString+Binary.h */,
-				EABFE9C821391DA50022D94A /* NSString+Binary.m */,
-				EABFE9C521391DA50022D94A /* NSString+CZBase64.h */,
-				EABFE9BD21391DA50022D94A /* NSString+CZBase64.m */,
-				EABFE9BA21391DA50022D94A /* NSString+CZHash.h */,
-				EABFE9C421391DA50022D94A /* NSString+CZHash.m */,
-				EABFE9E4213921D80022D94A /* KKWTool.strings */,
-			);
-			path = NSString;
-			sourceTree = "<group>";
-		};
-		EABFE9FD213937000022D94A /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				EABFE9FE213937000022D94A /* UIColor+CZAddition.m */,
-				EABFE9FF213937000022D94A /* UIView+CZAddition.m */,
-				EABFEA00213937000022D94A /* KKErrorView.h */,
-				EABFEA01213937000022D94A /* UIView+EX.m */,
-				EABFEA02213937000022D94A /* UIView+TransitionAnimation.h */,
-				EABFEA03213937000022D94A /* UIView+Util.m */,
-				EABFEA04213937000022D94A /* UIColor+Common.m */,
-				EABFEA05213937000022D94A /* UIColor+StyleSheet.m */,
-				EABFEA06213937000022D94A /* UIView+BorderLine.h */,
-				EABFEA07213937000022D94A /* UIColor+hex.m */,
-				EABFEA08213937000022D94A /* UIView+Extension.h */,
-				EABFEA09213937000022D94A /* UIView+ErrorView.m */,
-				EABFEA0A213937000022D94A /* UIColor+HexExtension.m */,
-				EABFEA0B213937000022D94A /* UIView+Category.m */,
-				EABFEA0C213937000022D94A /* UIView+JKFrame.m */,
-				EABFEA0D213937000022D94A /* UIView+Const.h */,
-				EABFEA0E213937000022D94A /* KKErrorView.m */,
-				EABFEA0F213937000022D94A /* UIView+CZAddition.h */,
-				EABFEA10213937000022D94A /* UIColor+CZAddition.h */,
-				EABFEA11213937000022D94A /* UIColor+hex.h */,
-				EABFEA12213937000022D94A /* UIColor+StyleSheet.h */,
-				EABFEA13213937000022D94A /* UIView+BorderLine.m */,
-				EABFEA14213937000022D94A /* UIView+Util.h */,
-				EABFEA15213937000022D94A /* UIColor+Common.h */,
-				EABFEA16213937000022D94A /* UIView+TransitionAnimation.m */,
-				EABFEA17213937000022D94A /* UIView+EX.h */,
-				EABFEA18213937000022D94A /* UIView+Category.h */,
-				EABFEA19213937000022D94A /* UIColor+HexExtension.h */,
-				EABFEA1A213937000022D94A /* UIView+ErrorView.h */,
-				EABFEA1B213937000022D94A /* UIView+Extension.m */,
-				EABFEA1C213937000022D94A /* UIView+Const.m */,
-				EABFEA1D213937000022D94A /* UIView+JKFrame.h */,
+				EABFEA3F213939060022D94A /* UIColor+CZAddition.m */,
+				EABFEA40213939060022D94A /* UIView+CZAddition.m */,
+				EABFEA41213939060022D94A /* KKWTool.strings */,
+				EABFEA43213939060022D94A /* KKErrorView.h */,
+				EABFEA44213939060022D94A /* NSString+Category.h */,
+				EABFEA46213939060022D94A /* UIView+EX.m */,
+				EABFEA47213939060022D94A /* NSString+CZHash.h */,
+				EABFEA48213939060022D94A /* UIView+TransitionAnimation.h */,
+				EABFEA49213939060022D94A /* UIView+Util.m */,
+				EABFEA4A213939060022D94A /* UIColor+Common.m */,
+				EABFEA4B213939060022D94A /* UIColor+StyleSheet.m */,
+				EABFEA4C213939060022D94A /* UIView+BorderLine.h */,
+				EABFEA4D213939060022D94A /* UIColor+hex.m */,
+				EABFEA4E213939060022D94A /* UIView+Extension.h */,
+				EABFEA4F213939060022D94A /* UIView+ErrorView.m */,
+				EABFEA50213939060022D94A /* UIColor+HexExtension.m */,
+				EABFEA51213939060022D94A /* UIView+Category.m */,
+				EABFEA52213939060022D94A /* NSString+CZBase64.m */,
+				EABFEA53213939060022D94A /* NSString+KKL.h */,
+				EABFEA54213939060022D94A /* NSString+CZPath.m */,
+				EABFEA55213939060022D94A /* NSString+Size.h */,
+				EABFEA56213939060022D94A /* NSString+Binary.h */,
+				EABFEA57213939060022D94A /* UIView+JKFrame.m */,
+				EABFEA58213939060022D94A /* UIView+Const.h */,
+				EABFEA59213939060022D94A /* NSString+Category.m */,
+				EABFEA5A213939060022D94A /* KKErrorView.m */,
+				EABFEA5B213939060022D94A /* UIView+CZAddition.h */,
+				EABFEA5C213939060022D94A /* UIColor+CZAddition.h */,
+				EABFEA5D213939060022D94A /* UIColor+hex.h */,
+				EABFEA5E213939060022D94A /* UIColor+StyleSheet.h */,
+				EABFEA5F213939060022D94A /* UIView+BorderLine.m */,
+				EABFEA60213939060022D94A /* UIView+Util.h */,
+				EABFEA61213939060022D94A /* UIColor+Common.h */,
+				EABFEA62213939060022D94A /* UIView+TransitionAnimation.m */,
+				EABFEA63213939060022D94A /* NSString+CZHash.m */,
+				EABFEA64213939060022D94A /* UIView+EX.h */,
+				EABFEA65213939060022D94A /* NSString+CZBase64.h */,
+				EABFEA66213939060022D94A /* UIView+Category.h */,
+				EABFEA67213939060022D94A /* UIColor+HexExtension.h */,
+				EABFEA68213939060022D94A /* UIView+ErrorView.h */,
+				EABFEA69213939060022D94A /* UIView+Extension.m */,
+				EABFEA6A213939060022D94A /* UIView+Const.m */,
+				EABFEA6B213939060022D94A /* NSString+Binary.m */,
+				EABFEA6C213939060022D94A /* UIView+JKFrame.h */,
+				EABFEA6D213939060022D94A /* NSString+Size.m */,
+				EABFEA6E213939060022D94A /* NSString+CZPath.h */,
+				EABFEA6F213939060022D94A /* NSString+KKL.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -264,32 +256,32 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EABFE9D421391DA50022D94A /* NSString+Size.h in Headers */,
-				EABFEA26213937000022D94A /* UIView+BorderLine.h in Headers */,
-				EABFEA37213937000022D94A /* UIView+EX.h in Headers */,
-				EABFEA22213937000022D94A /* UIView+TransitionAnimation.h in Headers */,
-				EABFE9DE21391DA50022D94A /* NSString+CZPath.h in Headers */,
-				EABFEA31213937000022D94A /* UIColor+hex.h in Headers */,
-				EABFEA39213937000022D94A /* UIColor+HexExtension.h in Headers */,
-				EABFEA35213937000022D94A /* UIColor+Common.h in Headers */,
-				EABFEA34213937000022D94A /* UIView+Util.h in Headers */,
-				EABFEA3A213937000022D94A /* UIView+ErrorView.h in Headers */,
-				EABFEA30213937000022D94A /* UIColor+CZAddition.h in Headers */,
+				EABFEA8C213939060022D94A /* UIColor+hex.h in Headers */,
+				EABFEA97213939060022D94A /* UIView+ErrorView.h in Headers */,
+				EABFEA9D213939060022D94A /* NSString+CZPath.h in Headers */,
 				EABFE9B221391C330022D94A /* UIViewController+CZAddition.h in Headers */,
-				EABFEA3D213937000022D94A /* UIView+JKFrame.h in Headers */,
-				EABFE9D921391DA50022D94A /* NSString+CZBase64.h in Headers */,
-				EABFEA2F213937000022D94A /* UIView+CZAddition.h in Headers */,
+				EABFEA76213939060022D94A /* NSString+CZHash.h in Headers */,
+				EABFEA8F213939060022D94A /* UIView+Util.h in Headers */,
+				EABFEA77213939060022D94A /* UIView+TransitionAnimation.h in Headers */,
+				EABFEA90213939060022D94A /* UIColor+Common.h in Headers */,
+				EABFEA85213939060022D94A /* NSString+Binary.h in Headers */,
+				EABFEA95213939060022D94A /* UIView+Category.h in Headers */,
+				EABFEA84213939060022D94A /* NSString+Size.h in Headers */,
+				EABFEA7B213939060022D94A /* UIView+BorderLine.h in Headers */,
+				EABFEA94213939060022D94A /* NSString+CZBase64.h in Headers */,
 				EABFE9B421391C330022D94A /* UIViewController+viewDidLoad.h in Headers */,
-				EABFEA28213937000022D94A /* UIView+Extension.h in Headers */,
-				EABFE9CD21391DA50022D94A /* NSString+Category.h in Headers */,
-				EABFE9D521391DA50022D94A /* NSString+Binary.h in Headers */,
-				EABFE9D221391DA50022D94A /* NSString+KKL.h in Headers */,
-				EABFEA20213937000022D94A /* KKErrorView.h in Headers */,
-				EABFE9CE21391DA50022D94A /* NSString+CZHash.h in Headers */,
-				EABFEA2D213937000022D94A /* UIView+Const.h in Headers */,
+				EABFEA73213939060022D94A /* KKErrorView.h in Headers */,
+				EABFEA74213939060022D94A /* NSString+Category.h in Headers */,
+				EABFEA9B213939060022D94A /* UIView+JKFrame.h in Headers */,
+				EABFEA82213939060022D94A /* NSString+KKL.h in Headers */,
+				EABFEA8B213939060022D94A /* UIColor+CZAddition.h in Headers */,
+				EABFEA87213939060022D94A /* UIView+Const.h in Headers */,
 				EABFE9B621391C330022D94A /* UIViewController+ShowAlert.h in Headers */,
-				EABFEA32213937000022D94A /* UIColor+StyleSheet.h in Headers */,
-				EABFEA38213937000022D94A /* UIView+Category.h in Headers */,
+				EABFEA8A213939060022D94A /* UIView+CZAddition.h in Headers */,
+				EABFEA7D213939060022D94A /* UIView+Extension.h in Headers */,
+				EABFEA93213939060022D94A /* UIView+EX.h in Headers */,
+				EABFEA8D213939060022D94A /* UIColor+StyleSheet.h in Headers */,
+				EABFEA96213939060022D94A /* UIColor+HexExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +345,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EABFE9E2213921D80022D94A /* KKWTool.strings in Resources */,
+				EABFEA72213939060022D94A /* KKWTool.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,43 +395,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EABFEA21213937000022D94A /* UIView+EX.m in Sources */,
-				EABFEA25213937000022D94A /* UIColor+StyleSheet.m in Sources */,
+				EABFEA7A213939060022D94A /* UIColor+StyleSheet.m in Sources */,
+				EABFEA83213939060022D94A /* NSString+CZPath.m in Sources */,
+				EABFEA9E213939060022D94A /* NSString+KKL.m in Sources */,
+				EABFEA98213939060022D94A /* UIView+Extension.m in Sources */,
+				EABFEA70213939060022D94A /* UIColor+CZAddition.m in Sources */,
+				EABFEA78213939060022D94A /* UIView+Util.m in Sources */,
+				EABFEA81213939060022D94A /* NSString+CZBase64.m in Sources */,
+				EABFEA75213939060022D94A /* UIView+EX.m in Sources */,
+				EABFEA91213939060022D94A /* UIView+TransitionAnimation.m in Sources */,
+				EABFEA7E213939060022D94A /* UIView+ErrorView.m in Sources */,
+				EABFEA9C213939060022D94A /* NSString+Size.m in Sources */,
 				EABFE9B121391C330022D94A /* UIViewController+ShowAlert.m in Sources */,
+				EABFEA99213939060022D94A /* UIView+Const.m in Sources */,
+				EABFEA80213939060022D94A /* UIView+Category.m in Sources */,
+				EABFEA9A213939060022D94A /* NSString+Binary.m in Sources */,
+				EABFEA92213939060022D94A /* NSString+CZHash.m in Sources */,
+				EABFEA79213939060022D94A /* UIColor+Common.m in Sources */,
+				EABFEA7F213939060022D94A /* UIColor+HexExtension.m in Sources */,
 				EABFE9B321391C330022D94A /* UIViewController+viewDidLoad.m in Sources */,
-				EABFE9DC21391DA50022D94A /* NSString+Binary.m in Sources */,
-				EABFEA1F213937000022D94A /* UIView+CZAddition.m in Sources */,
-				EABFE9D821391DA50022D94A /* NSString+CZHash.m in Sources */,
-				EABFE9DD21391DA50022D94A /* NSString+Size.m in Sources */,
-				EABFEA2C213937000022D94A /* UIView+JKFrame.m in Sources */,
-				EABFEA2E213937000022D94A /* KKErrorView.m in Sources */,
-				EABFEA29213937000022D94A /* UIView+ErrorView.m in Sources */,
-				EABFE9D621391DA50022D94A /* NSString+Category.m in Sources */,
-				EABFEA23213937000022D94A /* UIView+Util.m in Sources */,
-				EABFEA24213937000022D94A /* UIColor+Common.m in Sources */,
-				EABFEA36213937000022D94A /* UIView+TransitionAnimation.m in Sources */,
-				EABFEA2A213937000022D94A /* UIColor+HexExtension.m in Sources */,
-				EABFE9D321391DA50022D94A /* NSString+CZPath.m in Sources */,
-				EABFEA1E213937000022D94A /* UIColor+CZAddition.m in Sources */,
-				EABFE9D121391DA50022D94A /* NSString+CZBase64.m in Sources */,
+				EABFEA7C213939060022D94A /* UIColor+hex.m in Sources */,
+				EABFEA89213939060022D94A /* KKErrorView.m in Sources */,
 				EABFE9B521391C330022D94A /* UIViewController+CZAddition.m in Sources */,
-				EABFEA3B213937000022D94A /* UIView+Extension.m in Sources */,
-				EABFEA33213937000022D94A /* UIView+BorderLine.m in Sources */,
-				EABFEA3C213937000022D94A /* UIView+Const.m in Sources */,
-				EABFE9DF21391DA50022D94A /* NSString+KKL.m in Sources */,
-				EABFEA2B213937000022D94A /* UIView+Category.m in Sources */,
-				EABFEA27213937000022D94A /* UIColor+hex.m in Sources */,
+				EABFEA88213939060022D94A /* NSString+Category.m in Sources */,
+				EABFEA8E213939060022D94A /* UIView+BorderLine.m in Sources */,
+				EABFEA71213939060022D94A /* UIView+CZAddition.m in Sources */,
+				EABFEA86213939060022D94A /* UIView+JKFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EABFE9E4213921D80022D94A /* KKWTool.strings */ = {
+		EABFEA41213939060022D94A /* KKWTool.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EABFE9E3213921D80022D94A /* en */,
-				EABFE9E5213921E60022D94A /* zh-Hans */,
+				EABFEA42213939060022D94A /* zh-Hans */,
+				EABFEA45213939060022D94A /* en */,
 			);
 			name = KKWTool.strings;
 			sourceTree = "<group>";
