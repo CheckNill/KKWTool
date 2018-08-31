@@ -8,7 +8,6 @@
 
 #import "UIView+ErrorView.h"
 #import <objc/runtime.h>
-#import <UIColor+StyleSheet.h>
 
 const NSString *KKErrorViewKey = @"com.john.errview";
 
