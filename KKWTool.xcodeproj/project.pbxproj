@@ -253,12 +253,12 @@
 			children = (
 				EABFE9E7213922770022D94A /* UIColor+CZAddition.m */,
 				EABFE9E8213922770022D94A /* UIColor+Common.m */,
+				EABFE9EE213922770022D94A /* UIColor+StyleSheet.h */,
 				EABFE9E9213922770022D94A /* UIColor+StyleSheet.m */,
 				EABFE9EA213922770022D94A /* UIColor+hex.m */,
 				EABFE9EB213922770022D94A /* UIColor+HexExtension.m */,
 				EABFE9EC213922770022D94A /* UIColor+CZAddition.h */,
 				EABFE9ED213922770022D94A /* UIColor+hex.h */,
-				EABFE9EE213922770022D94A /* UIColor+StyleSheet.h */,
 				EABFE9EF213922770022D94A /* UIColor+Common.h */,
 				EABFE9F0213922770022D94A /* UIColor+HexExtension.h */,
 			);
