@@ -97,7 +97,7 @@ KKWTool is a tool for  development,we us it.
      ss.source_files = "KKWTool/NSString/*"
   end
 
-  spec.subspec 'UIView+UIColor' do |ss|
+  spec.subspec 'UIView' do |ss|
    ss.source_files = "KKWTool/UIView/*"
   end
 
