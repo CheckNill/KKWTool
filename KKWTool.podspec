@@ -65,7 +65,7 @@ KKWTool is a tool for  development,we us it.
   #
 
   # spec.platform     = :ios
-   spec.platform     = :ios, "7.0"
+   spec.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
