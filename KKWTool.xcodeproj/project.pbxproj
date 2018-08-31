@@ -61,7 +61,7 @@
 		EABFE9F8213922770022D94A /* UIColor+StyleSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9EE213922770022D94A /* UIColor+StyleSheet.h */; };
 		EABFE9F9213922770022D94A /* UIColor+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9EF213922770022D94A /* UIColor+Common.h */; };
 		EABFE9FA213922770022D94A /* UIColor+HexExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9F0213922770022D94A /* UIColor+HexExtension.h */; };
-		EABFE9FC213923100022D94A /* KKWTool.pch in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9FB213923100022D94A /* KKWTool.pch */; };
+		EABFE9FC213923100022D94A /* KKWTool.pch in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9FB213923100022D94A /* KKWTool.pch */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -275,6 +275,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EABFE9FC213923100022D94A /* KKWTool.pch in Headers */,
 				EABFE99A21391C2E0022D94A /* UIView+Extension.h in Headers */,
 				EABFE9A421391C2E0022D94A /* UIView+EX.h in Headers */,
 				EABFE9D421391DA50022D94A /* NSString+Size.h in Headers */,
@@ -300,7 +301,6 @@
 				EABFE9F8213922770022D94A /* UIColor+StyleSheet.h in Headers */,
 				EABFE9F6213922770022D94A /* UIColor+CZAddition.h in Headers */,
 				EABFE9CE21391DA50022D94A /* NSString+CZHash.h in Headers */,
-				EABFE9FC213923100022D94A /* KKWTool.pch in Headers */,
 				EABFE9B621391C330022D94A /* UIViewController+ShowAlert.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
