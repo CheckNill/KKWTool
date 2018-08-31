@@ -1,0 +1,27 @@
+//
+//  KKWTool.pch
+//  KKWTool
+//
+//  Created by Tony on 2018/8/31.
+//  Copyright © 2018年 KK. All rights reserved.
+//
+
+#ifndef KKWTool_pch
+#define KKWTool_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "UIColor+HexExtension.h"
+#import "UIColor+StyleSheet.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "UIView+EX.h"
+#import "UIView+Const.h"
+#import <Masonry/Masonry.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+
+#define Tool_ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define Tool_scaleTo375 (Tool_ScreenWidth/375.0)
+#define KKWTool_STR(key, comment) NSLocalizedStringFromTable(key, @"KKWNetworkinging", comment)
+
+#endif /* KKWTool_pch */

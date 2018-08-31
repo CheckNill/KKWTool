@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3C53974CC8C41B1A687954 /* libPods-KKWTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF65B2DCC1EC806A5643570 /* libPods-KKWTool.a */; };
+		EABFE99421391C2E0022D94A /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE97E21391C2E0022D94A /* UIView+CZAddition.m */; };
+		EABFE99521391C2E0022D94A /* KKErrorView.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE97F21391C2E0022D94A /* KKErrorView.h */; };
+		EABFE99621391C2E0022D94A /* UIView+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE98021391C2E0022D94A /* UIView+EX.m */; };
+		EABFE99721391C2E0022D94A /* UIView+TransitionAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE98121391C2E0022D94A /* UIView+TransitionAnimation.h */; };
+		EABFE99821391C2E0022D94A /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE98221391C2E0022D94A /* UIView+Util.m */; };
+		EABFE99921391C2E0022D94A /* UIView+BorderLine.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE98321391C2E0022D94A /* UIView+BorderLine.h */; };
+		EABFE99A21391C2E0022D94A /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE98421391C2E0022D94A /* UIView+Extension.h */; };
+		EABFE99B21391C2E0022D94A /* UIView+ErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE98521391C2E0022D94A /* UIView+ErrorView.m */; };
+		EABFE99C21391C2E0022D94A /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE98621391C2E0022D94A /* UIView+Category.m */; };
+		EABFE99D21391C2E0022D94A /* UIView+JKFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE98721391C2E0022D94A /* UIView+JKFrame.m */; };
+		EABFE99E21391C2E0022D94A /* UIView+Const.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE98821391C2E0022D94A /* UIView+Const.h */; };
+		EABFE99F21391C2E0022D94A /* KKErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE98921391C2E0022D94A /* KKErrorView.m */; };
+		EABFE9A021391C2E0022D94A /* UIView+CZAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE98A21391C2E0022D94A /* UIView+CZAddition.h */; };
+		EABFE9A121391C2E0022D94A /* UIView+BorderLine.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE98B21391C2E0022D94A /* UIView+BorderLine.m */; };
+		EABFE9A221391C2E0022D94A /* UIView+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE98C21391C2E0022D94A /* UIView+Util.h */; };
+		EABFE9A321391C2E0022D94A /* UIView+TransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE98D21391C2E0022D94A /* UIView+TransitionAnimation.m */; };
+		EABFE9A421391C2E0022D94A /* UIView+EX.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE98E21391C2E0022D94A /* UIView+EX.h */; };
+		EABFE9A521391C2E0022D94A /* UIView+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE98F21391C2E0022D94A /* UIView+Category.h */; };
+		EABFE9A621391C2E0022D94A /* UIView+ErrorView.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE99021391C2E0022D94A /* UIView+ErrorView.h */; };
+		EABFE9A721391C2E0022D94A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE99121391C2E0022D94A /* UIView+Extension.m */; };
+		EABFE9A821391C2E0022D94A /* UIView+Const.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE99221391C2E0022D94A /* UIView+Const.m */; };
+		EABFE9A921391C2E0022D94A /* UIView+JKFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE99321391C2E0022D94A /* UIView+JKFrame.h */; };
+		EABFE9B121391C330022D94A /* UIViewController+ShowAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9AB21391C330022D94A /* UIViewController+ShowAlert.m */; };
+		EABFE9B221391C330022D94A /* UIViewController+CZAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9AC21391C330022D94A /* UIViewController+CZAddition.h */; };
+		EABFE9B321391C330022D94A /* UIViewController+viewDidLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9AD21391C330022D94A /* UIViewController+viewDidLoad.m */; };
+		EABFE9B421391C330022D94A /* UIViewController+viewDidLoad.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9AE21391C330022D94A /* UIViewController+viewDidLoad.h */; };
+		EABFE9B521391C330022D94A /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9AF21391C330022D94A /* UIViewController+CZAddition.m */; };
+		EABFE9B621391C330022D94A /* UIViewController+ShowAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9B021391C330022D94A /* UIViewController+ShowAlert.h */; };
+		EABFE9CD21391DA50022D94A /* NSString+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9B921391DA50022D94A /* NSString+Category.h */; };
+		EABFE9CE21391DA50022D94A /* NSString+CZHash.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9BA21391DA50022D94A /* NSString+CZHash.h */; };
+		EABFE9D121391DA50022D94A /* NSString+CZBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9BD21391DA50022D94A /* NSString+CZBase64.m */; };
+		EABFE9D221391DA50022D94A /* NSString+KKL.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9BE21391DA50022D94A /* NSString+KKL.h */; };
+		EABFE9D321391DA50022D94A /* NSString+CZPath.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9BF21391DA50022D94A /* NSString+CZPath.m */; };
+		EABFE9D421391DA50022D94A /* NSString+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9C021391DA50022D94A /* NSString+Size.h */; };
+		EABFE9D521391DA50022D94A /* NSString+Binary.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9C121391DA50022D94A /* NSString+Binary.h */; };
+		EABFE9D621391DA50022D94A /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9C221391DA50022D94A /* NSString+Category.m */; };
+		EABFE9D821391DA50022D94A /* NSString+CZHash.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9C421391DA50022D94A /* NSString+CZHash.m */; };
+		EABFE9D921391DA50022D94A /* NSString+CZBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9C521391DA50022D94A /* NSString+CZBase64.h */; };
+		EABFE9DC21391DA50022D94A /* NSString+Binary.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9C821391DA50022D94A /* NSString+Binary.m */; };
+		EABFE9DD21391DA50022D94A /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9C921391DA50022D94A /* NSString+Size.m */; };
+		EABFE9DE21391DA50022D94A /* NSString+CZPath.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9CA21391DA50022D94A /* NSString+CZPath.h */; };
+		EABFE9DF21391DA50022D94A /* NSString+KKL.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9CB21391DA50022D94A /* NSString+KKL.m */; };
+		EABFE9E2213921D80022D94A /* KKWTool.strings in Resources */ = {isa = PBXBuildFile; fileRef = EABFE9E4213921D80022D94A /* KKWTool.strings */; };
+		EABFE9F1213922770022D94A /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9E7213922770022D94A /* UIColor+CZAddition.m */; };
+		EABFE9F2213922770022D94A /* UIColor+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9E8213922770022D94A /* UIColor+Common.m */; };
+		EABFE9F3213922770022D94A /* UIColor+StyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9E9213922770022D94A /* UIColor+StyleSheet.m */; };
+		EABFE9F4213922770022D94A /* UIColor+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9EA213922770022D94A /* UIColor+hex.m */; };
+		EABFE9F5213922770022D94A /* UIColor+HexExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFE9EB213922770022D94A /* UIColor+HexExtension.m */; };
+		EABFE9F6213922770022D94A /* UIColor+CZAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9EC213922770022D94A /* UIColor+CZAddition.h */; };
+		EABFE9F7213922770022D94A /* UIColor+hex.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9ED213922770022D94A /* UIColor+hex.h */; };
+		EABFE9F8213922770022D94A /* UIColor+StyleSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9EE213922770022D94A /* UIColor+StyleSheet.h */; };
+		EABFE9F9213922770022D94A /* UIColor+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9EF213922770022D94A /* UIColor+Common.h */; };
+		EABFE9FA213922770022D94A /* UIColor+HexExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9F0213922770022D94A /* UIColor+HexExtension.h */; };
+		EABFE9FC213923100022D94A /* KKWTool.pch in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9FB213923100022D94A /* KKWTool.pch */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23A02D1E6011119191E90519 /* Pods-KKWTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKWTool.debug.xcconfig"; path = "Target Support Files/Pods-KKWTool/Pods-KKWTool.debug.xcconfig"; sourceTree = "<group>"; };
+		5FF65B2DCC1EC806A5643570 /* libPods-KKWTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KKWTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABFE97221391AB30022D94A /* KKWTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKWTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABFE97621391AB30022D94A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EABFE97E21391C2E0022D94A /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
+		EABFE97F21391C2E0022D94A /* KKErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKErrorView.h; sourceTree = "<group>"; };
+		EABFE98021391C2E0022D94A /* UIView+EX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EX.m"; sourceTree = "<group>"; };
+		EABFE98121391C2E0022D94A /* UIView+TransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TransitionAnimation.h"; sourceTree = "<group>"; };
+		EABFE98221391C2E0022D94A /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
+		EABFE98321391C2E0022D94A /* UIView+BorderLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BorderLine.h"; sourceTree = "<group>"; };
+		EABFE98421391C2E0022D94A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		EABFE98521391C2E0022D94A /* UIView+ErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ErrorView.m"; sourceTree = "<group>"; };
+		EABFE98621391C2E0022D94A /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		EABFE98721391C2E0022D94A /* UIView+JKFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKFrame.m"; sourceTree = "<group>"; };
+		EABFE98821391C2E0022D94A /* UIView+Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Const.h"; sourceTree = "<group>"; };
+		EABFE98921391C2E0022D94A /* KKErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKErrorView.m; sourceTree = "<group>"; };
+		EABFE98A21391C2E0022D94A /* UIView+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZAddition.h"; sourceTree = "<group>"; };
+		EABFE98B21391C2E0022D94A /* UIView+BorderLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BorderLine.m"; sourceTree = "<group>"; };
+		EABFE98C21391C2E0022D94A /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
+		EABFE98D21391C2E0022D94A /* UIView+TransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TransitionAnimation.m"; sourceTree = "<group>"; };
+		EABFE98E21391C2E0022D94A /* UIView+EX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EX.h"; sourceTree = "<group>"; };
+		EABFE98F21391C2E0022D94A /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		EABFE99021391C2E0022D94A /* UIView+ErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ErrorView.h"; sourceTree = "<group>"; };
+		EABFE99121391C2E0022D94A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		EABFE99221391C2E0022D94A /* UIView+Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Const.m"; sourceTree = "<group>"; };
+		EABFE99321391C2E0022D94A /* UIView+JKFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKFrame.h"; sourceTree = "<group>"; };
+		EABFE9AB21391C330022D94A /* UIViewController+ShowAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ShowAlert.m"; sourceTree = "<group>"; };
+		EABFE9AC21391C330022D94A /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
+		EABFE9AD21391C330022D94A /* UIViewController+viewDidLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+viewDidLoad.m"; sourceTree = "<group>"; };
+		EABFE9AE21391C330022D94A /* UIViewController+viewDidLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+viewDidLoad.h"; sourceTree = "<group>"; };
+		EABFE9AF21391C330022D94A /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
+		EABFE9B021391C330022D94A /* UIViewController+ShowAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ShowAlert.h"; sourceTree = "<group>"; };
+		EABFE9B921391DA50022D94A /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		EABFE9BA21391DA50022D94A /* NSString+CZHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZHash.h"; sourceTree = "<group>"; };
+		EABFE9BD21391DA50022D94A /* NSString+CZBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZBase64.m"; sourceTree = "<group>"; };
+		EABFE9BE21391DA50022D94A /* NSString+KKL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KKL.h"; sourceTree = "<group>"; };
+		EABFE9BF21391DA50022D94A /* NSString+CZPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZPath.m"; sourceTree = "<group>"; };
+		EABFE9C021391DA50022D94A /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		EABFE9C121391DA50022D94A /* NSString+Binary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Binary.h"; sourceTree = "<group>"; };
+		EABFE9C221391DA50022D94A /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		EABFE9C421391DA50022D94A /* NSString+CZHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZHash.m"; sourceTree = "<group>"; };
+		EABFE9C521391DA50022D94A /* NSString+CZBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZBase64.h"; sourceTree = "<group>"; };
+		EABFE9C821391DA50022D94A /* NSString+Binary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Binary.m"; sourceTree = "<group>"; };
+		EABFE9C921391DA50022D94A /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		EABFE9CA21391DA50022D94A /* NSString+CZPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZPath.h"; sourceTree = "<group>"; };
+		EABFE9CB21391DA50022D94A /* NSString+KKL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KKL.m"; sourceTree = "<group>"; };
+		EABFE9E3213921D80022D94A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/KKWTool.strings; sourceTree = "<group>"; };
+		EABFE9E5213921E60022D94A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/KKWTool.strings"; sourceTree = "<group>"; };
+		EABFE9E7213922770022D94A /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
+		EABFE9E8213922770022D94A /* UIColor+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Common.m"; sourceTree = "<group>"; };
+		EABFE9E9213922770022D94A /* UIColor+StyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+StyleSheet.m"; sourceTree = "<group>"; };
+		EABFE9EA213922770022D94A /* UIColor+hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hex.m"; sourceTree = "<group>"; };
+		EABFE9EB213922770022D94A /* UIColor+HexExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexExtension.m"; sourceTree = "<group>"; };
+		EABFE9EC213922770022D94A /* UIColor+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZAddition.h"; sourceTree = "<group>"; };
+		EABFE9ED213922770022D94A /* UIColor+hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hex.h"; sourceTree = "<group>"; };
+		EABFE9EE213922770022D94A /* UIColor+StyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+StyleSheet.h"; sourceTree = "<group>"; };
+		EABFE9EF213922770022D94A /* UIColor+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Common.h"; sourceTree = "<group>"; };
+		EABFE9F0213922770022D94A /* UIColor+HexExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexExtension.h"; sourceTree = "<group>"; };
+		EABFE9FB213923100022D94A /* KKWTool.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKWTool.pch; sourceTree = "<group>"; };
+		FA32AB80BD1CBD2566525AF4 /* Pods-KKWTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKWTool.release.xcconfig"; path = "Target Support Files/Pods-KKWTool/Pods-KKWTool.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EABFE96E21391AB30022D94A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3C53974CC8C41B1A687954 /* libPods-KKWTool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66533A2BF16A1F4C3B9E3A61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FF65B2DCC1EC806A5643570 /* libPods-KKWTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEA0DD7AB20694C03227A1FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23A02D1E6011119191E90519 /* Pods-KKWTool.debug.xcconfig */,
+				FA32AB80BD1CBD2566525AF4 /* Pods-KKWTool.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EABFE96821391AB30022D94A = {
+			isa = PBXGroup;
+			children = (
+				EABFE97421391AB30022D94A /* KKWTool */,
+				EABFE97321391AB30022D94A /* Products */,
+				DEA0DD7AB20694C03227A1FA /* Pods */,
+				66533A2BF16A1F4C3B9E3A61 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EABFE97321391AB30022D94A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EABFE97221391AB30022D94A /* KKWTool.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EABFE97421391AB30022D94A /* KKWTool */ = {
+			isa = PBXGroup;
+			children = (
+				EABFE9E6213922770022D94A /* UIColor */,
+				EABFE9B721391DA50022D94A /* NSString */,
+				EABFE9AA21391C330022D94A /* UIViewController */,
+				EABFE97D21391C2E0022D94A /* UIView */,
+				EABFE97621391AB30022D94A /* Info.plist */,
+				EABFE9FB213923100022D94A /* KKWTool.pch */,
+			);
+			path = KKWTool;
+			sourceTree = "<group>";
+		};
+		EABFE97D21391C2E0022D94A /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				EABFE98A21391C2E0022D94A /* UIView+CZAddition.h */,
+				EABFE97E21391C2E0022D94A /* UIView+CZAddition.m */,
+				EABFE99021391C2E0022D94A /* UIView+ErrorView.h */,
+				EABFE98521391C2E0022D94A /* UIView+ErrorView.m */,
+				EABFE97F21391C2E0022D94A /* KKErrorView.h */,
+				EABFE98921391C2E0022D94A /* KKErrorView.m */,
+				EABFE98421391C2E0022D94A /* UIView+Extension.h */,
+				EABFE99121391C2E0022D94A /* UIView+Extension.m */,
+				EABFE98E21391C2E0022D94A /* UIView+EX.h */,
+				EABFE98021391C2E0022D94A /* UIView+EX.m */,
+				EABFE98C21391C2E0022D94A /* UIView+Util.h */,
+				EABFE98221391C2E0022D94A /* UIView+Util.m */,
+				EABFE98321391C2E0022D94A /* UIView+BorderLine.h */,
+				EABFE98B21391C2E0022D94A /* UIView+BorderLine.m */,
+				EABFE99321391C2E0022D94A /* UIView+JKFrame.h */,
+				EABFE98721391C2E0022D94A /* UIView+JKFrame.m */,
+				EABFE98F21391C2E0022D94A /* UIView+Category.h */,
+				EABFE98621391C2E0022D94A /* UIView+Category.m */,
+				EABFE98821391C2E0022D94A /* UIView+Const.h */,
+				EABFE99221391C2E0022D94A /* UIView+Const.m */,
+				EABFE98121391C2E0022D94A /* UIView+TransitionAnimation.h */,
+				EABFE98D21391C2E0022D94A /* UIView+TransitionAnimation.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		EABFE9AA21391C330022D94A /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EABFE9B021391C330022D94A /* UIViewController+ShowAlert.h */,
+				EABFE9AB21391C330022D94A /* UIViewController+ShowAlert.m */,
+				EABFE9AC21391C330022D94A /* UIViewController+CZAddition.h */,
+				EABFE9AF21391C330022D94A /* UIViewController+CZAddition.m */,
+				EABFE9AD21391C330022D94A /* UIViewController+viewDidLoad.m */,
+				EABFE9AE21391C330022D94A /* UIViewController+viewDidLoad.h */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		EABFE9B721391DA50022D94A /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				EABFE9B921391DA50022D94A /* NSString+Category.h */,
+				EABFE9BD21391DA50022D94A /* NSString+CZBase64.m */,
+				EABFE9BA21391DA50022D94A /* NSString+CZHash.h */,
+				EABFE9BF21391DA50022D94A /* NSString+CZPath.m */,
+				EABFE9BE21391DA50022D94A /* NSString+KKL.h */,
+				EABFE9CB21391DA50022D94A /* NSString+KKL.m */,
+				EABFE9C021391DA50022D94A /* NSString+Size.h */,
+				EABFE9C921391DA50022D94A /* NSString+Size.m */,
+				EABFE9C121391DA50022D94A /* NSString+Binary.h */,
+				EABFE9C821391DA50022D94A /* NSString+Binary.m */,
+				EABFE9C521391DA50022D94A /* NSString+CZBase64.h */,
+				EABFE9C221391DA50022D94A /* NSString+Category.m */,
+				EABFE9CA21391DA50022D94A /* NSString+CZPath.h */,
+				EABFE9C421391DA50022D94A /* NSString+CZHash.m */,
+				EABFE9E4213921D80022D94A /* KKWTool.strings */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		EABFE9E6213922770022D94A /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				EABFE9E7213922770022D94A /* UIColor+CZAddition.m */,
+				EABFE9E8213922770022D94A /* UIColor+Common.m */,
+				EABFE9E9213922770022D94A /* UIColor+StyleSheet.m */,
+				EABFE9EA213922770022D94A /* UIColor+hex.m */,
+				EABFE9EB213922770022D94A /* UIColor+HexExtension.m */,
+				EABFE9EC213922770022D94A /* UIColor+CZAddition.h */,
+				EABFE9ED213922770022D94A /* UIColor+hex.h */,
+				EABFE9EE213922770022D94A /* UIColor+StyleSheet.h */,
+				EABFE9EF213922770022D94A /* UIColor+Common.h */,
+				EABFE9F0213922770022D94A /* UIColor+HexExtension.h */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EABFE96F21391AB30022D94A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABFE99A21391C2E0022D94A /* UIView+Extension.h in Headers */,
+				EABFE9A421391C2E0022D94A /* UIView+EX.h in Headers */,
+				EABFE9D421391DA50022D94A /* NSString+Size.h in Headers */,
+				EABFE9DE21391DA50022D94A /* NSString+CZPath.h in Headers */,
+				EABFE9F9213922770022D94A /* UIColor+Common.h in Headers */,
+				EABFE9F7213922770022D94A /* UIColor+hex.h in Headers */,
+				EABFE9FA213922770022D94A /* UIColor+HexExtension.h in Headers */,
+				EABFE99E21391C2E0022D94A /* UIView+Const.h in Headers */,
+				EABFE9A521391C2E0022D94A /* UIView+Category.h in Headers */,
+				EABFE9B221391C330022D94A /* UIViewController+CZAddition.h in Headers */,
+				EABFE99521391C2E0022D94A /* KKErrorView.h in Headers */,
+				EABFE99721391C2E0022D94A /* UIView+TransitionAnimation.h in Headers */,
+				EABFE9D921391DA50022D94A /* NSString+CZBase64.h in Headers */,
+				EABFE9A621391C2E0022D94A /* UIView+ErrorView.h in Headers */,
+				EABFE9B421391C330022D94A /* UIViewController+viewDidLoad.h in Headers */,
+				EABFE9CD21391DA50022D94A /* NSString+Category.h in Headers */,
+				EABFE9A221391C2E0022D94A /* UIView+Util.h in Headers */,
+				EABFE9A021391C2E0022D94A /* UIView+CZAddition.h in Headers */,
+				EABFE9A921391C2E0022D94A /* UIView+JKFrame.h in Headers */,
+				EABFE9D521391DA50022D94A /* NSString+Binary.h in Headers */,
+				EABFE99921391C2E0022D94A /* UIView+BorderLine.h in Headers */,
+				EABFE9D221391DA50022D94A /* NSString+KKL.h in Headers */,
+				EABFE9F8213922770022D94A /* UIColor+StyleSheet.h in Headers */,
+				EABFE9F6213922770022D94A /* UIColor+CZAddition.h in Headers */,
+				EABFE9CE21391DA50022D94A /* NSString+CZHash.h in Headers */,
+				EABFE9FC213923100022D94A /* KKWTool.pch in Headers */,
+				EABFE9B621391C330022D94A /* UIViewController+ShowAlert.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EABFE97121391AB30022D94A /* KKWTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABFE97A21391AB30022D94A /* Build configuration list for PBXNativeTarget "KKWTool" */;
+			buildPhases = (
+				35705E1268744D8CB1215F64 /* [CP] Check Pods Manifest.lock */,
+				EABFE96D21391AB30022D94A /* Sources */,
+				EABFE96E21391AB30022D94A /* Frameworks */,
+				EABFE96F21391AB30022D94A /* Headers */,
+				EABFE97021391AB30022D94A /* Resources */,
+				2ED3211B32D7C981F61E074A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKWTool;
+			productName = KKWTool;
+			productReference = EABFE97221391AB30022D94A /* KKWTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EABFE96921391AB30022D94A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = KK;
+				TargetAttributes = {
+					EABFE97121391AB30022D94A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = EABFE96C21391AB30022D94A /* Build configuration list for PBXProject "KKWTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = EABFE96821391AB30022D94A;
+			productRefGroup = EABFE97321391AB30022D94A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EABFE97121391AB30022D94A /* KKWTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EABFE97021391AB30022D94A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABFE9E2213921D80022D94A /* KKWTool.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ED3211B32D7C981F61E074A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KKWTool/Pods-KKWTool-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KKWTool/Pods-KKWTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35705E1268744D8CB1215F64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KKWTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EABFE96D21391AB30022D94A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABFE9B121391C330022D94A /* UIViewController+ShowAlert.m in Sources */,
+				EABFE9B321391C330022D94A /* UIViewController+viewDidLoad.m in Sources */,
+				EABFE9A721391C2E0022D94A /* UIView+Extension.m in Sources */,
+				EABFE9F2213922770022D94A /* UIColor+Common.m in Sources */,
+				EABFE9A821391C2E0022D94A /* UIView+Const.m in Sources */,
+				EABFE9A121391C2E0022D94A /* UIView+BorderLine.m in Sources */,
+				EABFE99821391C2E0022D94A /* UIView+Util.m in Sources */,
+				EABFE99421391C2E0022D94A /* UIView+CZAddition.m in Sources */,
+				EABFE9DC21391DA50022D94A /* NSString+Binary.m in Sources */,
+				EABFE9F5213922770022D94A /* UIColor+HexExtension.m in Sources */,
+				EABFE9F3213922770022D94A /* UIColor+StyleSheet.m in Sources */,
+				EABFE9D821391DA50022D94A /* NSString+CZHash.m in Sources */,
+				EABFE99B21391C2E0022D94A /* UIView+ErrorView.m in Sources */,
+				EABFE99F21391C2E0022D94A /* KKErrorView.m in Sources */,
+				EABFE9DD21391DA50022D94A /* NSString+Size.m in Sources */,
+				EABFE9D621391DA50022D94A /* NSString+Category.m in Sources */,
+				EABFE99C21391C2E0022D94A /* UIView+Category.m in Sources */,
+				EABFE99621391C2E0022D94A /* UIView+EX.m in Sources */,
+				EABFE9D321391DA50022D94A /* NSString+CZPath.m in Sources */,
+				EABFE9D121391DA50022D94A /* NSString+CZBase64.m in Sources */,
+				EABFE9B521391C330022D94A /* UIViewController+CZAddition.m in Sources */,
+				EABFE9F1213922770022D94A /* UIColor+CZAddition.m in Sources */,
+				EABFE99D21391C2E0022D94A /* UIView+JKFrame.m in Sources */,
+				EABFE9F4213922770022D94A /* UIColor+hex.m in Sources */,
+				EABFE9DF21391DA50022D94A /* NSString+KKL.m in Sources */,
+				EABFE9A321391C2E0022D94A /* UIView+TransitionAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EABFE9E4213921D80022D94A /* KKWTool.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EABFE9E3213921D80022D94A /* en */,
+				EABFE9E5213921E60022D94A /* zh-Hans */,
+			);
+			name = KKWTool.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EABFE97821391AB30022D94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/tony/Documents/KKWTool/KKWTool/KKWTool.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EABFE97921391AB30022D94A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/tony/Documents/KKWTool/KKWTool/KKWTool.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EABFE97B21391AB30022D94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A02D1E6011119191E90519 /* Pods-KKWTool.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KKWTool/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KuarkWallet.KKWTool;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EABFE97C21391AB30022D94A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA32AB80BD1CBD2566525AF4 /* Pods-KKWTool.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KKWTool/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KuarkWallet.KKWTool;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EABFE96C21391AB30022D94A /* Build configuration list for PBXProject "KKWTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABFE97821391AB30022D94A /* Debug */,
+				EABFE97921391AB30022D94A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EABFE97A21391AB30022D94A /* Build configuration list for PBXNativeTarget "KKWTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABFE97B21391AB30022D94A /* Debug */,
+				EABFE97C21391AB30022D94A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EABFE96921391AB30022D94A /* Project object */;
+}
