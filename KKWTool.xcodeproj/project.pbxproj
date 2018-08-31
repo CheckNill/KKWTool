@@ -61,7 +61,6 @@
 		EABFE9F8213922770022D94A /* UIColor+StyleSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9EE213922770022D94A /* UIColor+StyleSheet.h */; };
 		EABFE9F9213922770022D94A /* UIColor+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9EF213922770022D94A /* UIColor+Common.h */; };
 		EABFE9FA213922770022D94A /* UIColor+HexExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9F0213922770022D94A /* UIColor+HexExtension.h */; };
-		EABFE9FC213923100022D94A /* KKWTool.pch in Headers */ = {isa = PBXBuildFile; fileRef = EABFE9FB213923100022D94A /* KKWTool.pch */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,7 +122,6 @@
 		EABFE9EE213922770022D94A /* UIColor+StyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+StyleSheet.h"; sourceTree = "<group>"; };
 		EABFE9EF213922770022D94A /* UIColor+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Common.h"; sourceTree = "<group>"; };
 		EABFE9F0213922770022D94A /* UIColor+HexExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexExtension.h"; sourceTree = "<group>"; };
-		EABFE9FB213923100022D94A /* KKWTool.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKWTool.pch; sourceTree = "<group>"; };
 		FA32AB80BD1CBD2566525AF4 /* Pods-KKWTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKWTool.release.xcconfig"; path = "Target Support Files/Pods-KKWTool/Pods-KKWTool.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,7 +180,6 @@
 				EABFE9AA21391C330022D94A /* UIViewController */,
 				EABFE97D21391C2E0022D94A /* UIView */,
 				EABFE97621391AB30022D94A /* Info.plist */,
-				EABFE9FB213923100022D94A /* KKWTool.pch */,
 			);
 			path = KKWTool;
 			sourceTree = "<group>";
@@ -233,8 +230,8 @@
 			isa = PBXGroup;
 			children = (
 				EABFE9B921391DA50022D94A /* NSString+Category.h */,
-				EABFE9BD21391DA50022D94A /* NSString+CZBase64.m */,
-				EABFE9BA21391DA50022D94A /* NSString+CZHash.h */,
+				EABFE9C221391DA50022D94A /* NSString+Category.m */,
+				EABFE9CA21391DA50022D94A /* NSString+CZPath.h */,
 				EABFE9BF21391DA50022D94A /* NSString+CZPath.m */,
 				EABFE9BE21391DA50022D94A /* NSString+KKL.h */,
 				EABFE9CB21391DA50022D94A /* NSString+KKL.m */,
@@ -243,8 +240,8 @@
 				EABFE9C121391DA50022D94A /* NSString+Binary.h */,
 				EABFE9C821391DA50022D94A /* NSString+Binary.m */,
 				EABFE9C521391DA50022D94A /* NSString+CZBase64.h */,
-				EABFE9C221391DA50022D94A /* NSString+Category.m */,
-				EABFE9CA21391DA50022D94A /* NSString+CZPath.h */,
+				EABFE9BD21391DA50022D94A /* NSString+CZBase64.m */,
+				EABFE9BA21391DA50022D94A /* NSString+CZHash.h */,
 				EABFE9C421391DA50022D94A /* NSString+CZHash.m */,
 				EABFE9E4213921D80022D94A /* KKWTool.strings */,
 			);
@@ -275,7 +272,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EABFE9FC213923100022D94A /* KKWTool.pch in Headers */,
 				EABFE99A21391C2E0022D94A /* UIView+Extension.h in Headers */,
 				EABFE9A421391C2E0022D94A /* UIView+EX.h in Headers */,
 				EABFE9D421391DA50022D94A /* NSString+Size.h in Headers */,
@@ -502,8 +498,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/tony/Documents/KKWTool/KKWTool/KKWTool.pch;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -564,8 +560,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/tony/Documents/KKWTool/KKWTool/KKWTool.pch;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -591,6 +587,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = KKWTool/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -615,6 +612,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = KKWTool/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -7,6 +7,7 @@
 //
 
 #import "NSString+Category.h"
+#define KKWTool_STR(key, comment) NSLocalizedStringFromTable(key, @"KKWNetworkinging", comment)
 
 /** 验证码长度 */
 #define LENGTH_VERIFY_CODE          6

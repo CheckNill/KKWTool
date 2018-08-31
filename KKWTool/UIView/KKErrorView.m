@@ -7,6 +7,12 @@
 //
 
 #import "KKErrorView.h"
+#import "UIView+EX.h"
+#import "UIColor+StyleSheet.h"
+
+#define KKWTool_STR(key, comment) NSLocalizedStringFromTable(key, @"KKWNetworkinging", comment)
+#define Tool_ScreenWidth [UIScreen mainScreen].bounds.size.width
+
 @interface KKErrorView()
 
 @property (nonatomic, strong) UIButton *errorIconView;

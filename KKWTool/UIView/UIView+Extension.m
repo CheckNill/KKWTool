@@ -7,6 +7,12 @@
 //
 
 #import "UIView+Extension.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#define Tool_ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define Tool_scaleTo375 (Tool_ScreenWidth/375.0)
+
 
 
 @implementation UIView (Extension)

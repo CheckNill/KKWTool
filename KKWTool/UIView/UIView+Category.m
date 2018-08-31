@@ -9,6 +9,7 @@
 #import "UIView+Category.h"
 #import "UIView+EX.h"
 #import "NSString+Category.h"
+#import <SVProgressHUD/SVProgressHUD.h>
 
 @implementation UIView (Category)
 
